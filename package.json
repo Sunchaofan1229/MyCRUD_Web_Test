@@ -1,0 +1,16 @@
+{
+  "name": "mycrud_web_test",
+  "version": "1.0.0",
+  "description": "<h3>MyCRUD项目说明<h3/> <p> 这是一个MyCRUD网络的测试项目.<br> 其中最核心的内容是通过编辑API来操作连接数据库.<br> 此项目是本人学习中开发.故还没有以商业化的标准编辑.<br> </p>   <br> <p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.8.4"
+  }
+}

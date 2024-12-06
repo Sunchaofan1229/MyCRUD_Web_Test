@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json()); // 用于解析JSON格式的请求体
 
 // MongoDB连接
-mongoose.connect('mongodb://mongo:woaita123@124.222.56.247:22/HUAWEI', {
+mongoose.connect('mongodb://mongo:woaita123@124.222.56.247:27017/HUAWEI', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
